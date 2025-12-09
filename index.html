@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ServiceHub - Find Trusted Local Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">
+  <img src="assets/handshack.png" alt="LocalConnect Logo" class="logo-img">
+  <span class="logo-text"><span class="local">Local</span><span class="connect">Connect</span></span>
+</div>
+
+  <ul id="nav-links">
+    <li><a href="#categories"> Services</a></li>
+    <li><a href="#how-it-works">How It Works</a></li>
+    <li><a href="#top-rated">Top Rated Providers</a></li>
+    <li><a href="#footer">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>Find Trusted Local Services Fast</h1>
+    <p>Laundry, Tailoring, Delivery, Cleaning & More</p>
+
+    <div class="search-button-container">
+      <div class="search-container">
+        <input class="search-box" type="text" placeholder="Search for a service..." id="serviceSearch">
+        <ul class="search-suggestions" id="suggestions"></ul>
+      </div>
+      <button class="cta-button" id="findServiceBtn">Find a Service Now</button>
+
+    </div>
+  </div>
+</header>
+<!-- About Section -->
+<section class="about-section" id="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="assets/handshack.png" alt="LocalConnect About" />
+    </div>
+    <div class="about-content">
+      <h2>
+  <span style="color:#001ca5;">About </span>
+  <span style="color:#10B981;">Local</span><span style="color:#F59E0B;">Connect</span>
+</h2>
+
+      <p>
+        LocalConnect is your trusted platform for discovering and booking reliable local services. 
+        From laundry and tailoring to house cleaning and delivery, we connect you with verified service providers in your area. 
+        Our mission is to make finding local help fast, simple, and secure, while empowering providers to grow their business.
+      </p>
+      <p>
+        Join us today and experience a seamless way to access the services you need and support local businesses.
+      </p>
+      <a href="#categories" class="cta-button">Explore Services</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="categories-section" id="categories">
+  <h2>Services</h2>
+  <div class="categories">
+    <a href="laundry1.html" class="category-card">
+  <i class="fas fa-tshirt fa-2x"></i>
+  <p>Laundry</p>
+</a>
+
+    <a href="delivery.html" class="category-card">
+      <i class="fas fa-motorcycle fa-2x"></i>
+      <p>Delivery</p>
+    </a>
+
+    <a href="tailoring.html" class="category-card">
+      <i class="fas fa-scissors fa-2x"></i>
+      <p>Tailoring</p>
+    </a>
+
+    <a href="cooking.html" class="category-card">
+      <i class="fas fa-utensils fa-2x"></i>
+      <p>Cooking</p>
+    </a>
+
+    <a href="braiding.html" class="category-card">
+      <i class="fas fa-haircut fa-2x"></i>
+      <p>Braiding</p>
+    </a>
+
+    <a href="house-cleaning.html" class="category-card">
+      <i class="fas fa-broom fa-2x"></i>
+      <p>House Cleaning</p>
+    </a>
+
+    <a href="car-wash.html" class="category-card">
+      <i class="fas fa-car fa-2x"></i>
+      <p>Car Wash</p>
+    </a>
+
+    <a href="painting.html" class="category-card">
+      <i class="fas fa-paint-roller fa-2x"></i>
+      <p>Painting</p>
+    </a>
+
+    <a href="house-help.html" class="category-card">
+      <i class="fas fa-person-booth fa-2x"></i>
+      <p>House Help</p>
+    </a>
+  </div>
+</section>
+
+
+<!-- How It Works Section -->
+<section class="how-it-works" id="how-it-works">
+  <h2>How It Works</h2>
+  <div class="steps">
+    <div class="step"><i class="fas fa-search fa-2x"></i><h3>1. Choose a Service</h3><p>Find the service you need from our wide range of categories.</p></div>
+    <div class="step"><i class="fas fa-calendar-check fa-2x"></i><h3>2. Book Online</h3><p>Select a trusted provider and book instantly through the platform.</p></div>
+    <div class="step"><i class="fas fa-smile fa-2x"></i><h3>3. Enjoy the Service</h3><p>Get the service delivered at your convenience, hassle-free.</p></div>
+  </div>
+</section>
+
+<!-- Top Rated Providers Section -->
+<section class="top-rated" id="top-rated">
+  <h2>Top Rated Providers</h2>
+  <div class="providers">
+    <div class="provider-card"><img src="provider1.jpg" alt="Provider 1"><p>Provider 1 <span class="stars">★★★★★</span></p></div>
+    <div class="provider-card"><img src="provider2.jpg" alt="Provider 2"><p>Provider 2 <span class="stars">★★★★☆</span></p></div>
+    <div class="provider-card"><img src="provider3.jpg" alt="Provider 3"><p>Provider 3 <span class="stars">★★★★★</span></p></div>
+    <div class="provider-card"><img src="provider4.jpg" alt="Provider 4"><p>Provider 4 <span class="stars">★★★★☆</span></p></div>
+  </div>
+</section>
+<!-- FAQ Section -->
+<section class="faq-section" id="faq">
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+
+  <div class="faq-container">
+
+    <div class="faq-item">
+      <button class="faq-question">
+        What is LocalConnect?
+        <span class="faq-icon">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>LocalConnect is a platform that connects you with trusted local service providers for all your daily needs.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        How do I book a service?
+        <span class="faq-icon">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>You simply search, choose a provider, and contact or book them instantly.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Are the service providers verified?
+        <span class="faq-icon">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>Yes, all providers go through a verification process before being listed.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Do providers pay to stay on LocalConnect?
+        <span class="faq-icon">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>Yes, providers subscribe monthly to stay visible on the platform.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        Is LocalConnect free for customers?
+        <span class="faq-icon">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>Absolutely! Customers access and book services for free.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CHATBOT WIDGET -->
+<button id="chatbot-btn">💬</button>
+
+<div id="chatbot-box">
+    <div id="chatbot-header">LocalConnect Support</div>
+
+    <div id="chatbot-messages"></div>
+
+    <div id="chatbot-input-area">
+        <input id="chatbot-input" type="text" placeholder="Ask something…" />
+        <button id="chatbot-send">Send</button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer" id="footer">
+  © 2025 LocalConnect. All rights reserved.
+</footer>
+
+<script>
+const services = [
+  { name: "Laundry", target: "categories" },
+  { name: "Delivery", target: "categories" },
+  { name: "Cooking", target: "categories" },
+  { name: "Tailoring", target: "categories" },
+  { name: "Braiding", target: "categories" },
+  { name: "Painting", target: "categories" },
+  { name: "Car Wash", target: "categories" },
+  { name: "House Help", target: "categories" },
+  { name: "Cleaning", target: "categories" },
+  { name: "How It Works", target: "how-it-works" },
+  { name: "Top Rated Providers", target: "top-rated" }
+];
+
+const searchInput = document.getElementById("serviceSearch");
+const suggestions = document.getElementById("suggestions");
+
+searchInput.addEventListener("input", function() {
+  const query = this.value.toLowerCase();
+  suggestions.innerHTML = "";
+  
+  if(query) {
+    const filtered = services.filter(service => service.name.toLowerCase().includes(query));
+    
+    filtered.forEach(service => {
+      const li = document.createElement("li");
+      li.textContent = service.name;
+      li.dataset.target = service.target;
+      li.addEventListener("click", function() {
+        searchInput.value = service.name;
+        suggestions.innerHTML = "";
+        suggestions.style.display = "none";
+
+        const section = document.getElementById(service.target);
+        if(section) {
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+      suggestions.appendChild(li);
+    });
+    
+    suggestions.style.display = filtered.length ? "block" : "none";
+  } else {
+    suggestions.style.display = "none";
+  }
+});
+
+document.addEventListener("click", function(e) {
+  if(!searchInput.contains(e.target) && !suggestions.contains(e.target)) {
+    suggestions.style.display = "none";
+  }
+});
+
+// Hamburger toggle
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+const hamburgerIcon = hamburger.querySelector("i");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+  hamburgerIcon.classList.toggle("fa-bars");
+  hamburgerIcon.classList.toggle("fa-xmark");
+});
+
+// Close menu when a link is clicked
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("show");
+    hamburgerIcon.classList.remove("fa-xmark");
+    hamburgerIcon.classList.add("fa-bars");
+  });
+  //Find Service Button
+});
+const findServiceBtn = document.getElementById("findServiceBtn");
+
+findServiceBtn.addEventListener("click", () => {
+  const query = searchInput.value.toLowerCase().trim();
+
+  if (!query) return; // do nothing if input is empty
+
+  // Find matching service
+  const service = services.find(s => s.name.toLowerCase() === query);
+
+  if (service) {
+    const section = document.getElementById(service.target);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  } else {
+    alert("Sorry, service not found. Please try another service.");
+  }
+});
+// FAQ Accordion
+document.querySelectorAll(".faq-question").forEach(button => {
+  button.addEventListener("click", () => {
+    const faqItem = button.parentElement;
+    faqItem.classList.toggle("active");
+  });
+});
+// --- ADVANCED CHATBOT LOGIC ---
+
+// Categories of questions
+const knowledgeBase = {
+    about: {
+        keywords: ["localconnect", "about", "what is", "explain"],
+        responses: [
+            "LocalConnect is a platform that links customers with trusted local service providers.",
+            "We created LocalConnect to make finding services like laundry, delivery, tailoring, and cleaning easy and reliable.",
+            "LocalConnect helps both service providers and users connect in a safe, fast, and organized way."
+        ]
+    },
+
+    pricing: {
+        keywords: ["price", "cost", "subscription", "fee", "pay"],
+        responses: [
+            "Service providers pay a small monthly subscription to stay listed on LocalConnect.",
+            "Using LocalConnect as a customer is completely free!",
+            "Our subscription helps service providers reach more customers."
+        ]
+    },
+
+    services: {
+        keywords: ["service", "offer", "available", "provide", "can i find"],
+        responses: [
+            "We offer categories like Laundry, Delivery, Tailoring, Cleaning, Braiding, and more.",
+            "You can search for any service using the search bar at the top of the homepage.",
+            "LocalConnect is expanding — new service categories are added regularly!"
+        ]
+    },
+
+    contact: {
+        keywords: ["contact", "support", "help", "assist"],
+        responses: [
+            "You can reach support directly through this chatbot or our contact form (coming soon).",
+            "For urgent issues, message us through the support icon on the platform.",
+            "Our team is always ready to assist you!"
+        ]
+    },
+
+    greetings: {
+        keywords: ["hello", "hi", "hey", "good morning", "good afternoon"],
+        responses: [
+            "Hello! How can I help you today?",
+            "Hi there! What would you like to know?",
+            "Hey! Feel free to ask me anything related to LocalConnect."
+        ]
+    }
+};
+
+// Default fallback replies
+const fallbackReplies = [
+    "I'm not sure about that, but I can help with questions about LocalConnect.",
+    "Can you rephrase your question? I answer only LocalConnect-related topics.",
+    "Hmm, I don't have info about that. Try asking about services, pricing, or support."
+];
+
+// Toggle Chatbox (open/close)
+document.getElementById("chatbot-btn").onclick = () => {
+    const box = document.getElementById("chatbot-box");
+    box.style.display = box.style.display === "flex" ? "none" : "flex";
+};
+
+// Send Message
+document.getElementById("chatbot-send").onclick = sendMessage;
+document.getElementById("chatbot-input").addEventListener("keypress", function(e){
+    if (e.key === "Enter") sendMessage();
+});
+
+// Main Chatbot Function
+function sendMessage() {
+    let input = document.getElementById("chatbot-input");
+    let userMsg = input.value.trim();
+    let messagesBox = document.getElementById("chatbot-messages");
+
+    if (!userMsg) return;
+
+    // Display user message
+    addMessage(userMsg, "user");
+
+    // Generate bot response
+    const botReply = getBotResponse(userMsg.toLowerCase());
+
+    // Display bot message
+    setTimeout(() => addMessage(botReply, "bot"), 600);
+
+    input.value = "";
+    messagesBox.scrollTop = messagesBox.scrollHeight;
+}
+
+// Function to display messages
+function addMessage(text, sender) {
+    const messagesBox = document.getElementById("chatbot-messages");
+    const className = sender === "user" ? "user-msg" : "bot-msg";
+    messagesBox.innerHTML += `<div class="${className}">${text}</div><br>`;
+}
+
+// Generate intelligent replies
+function getBotResponse(message) {
+    for (let category in knowledgeBase) {
+        const data = knowledgeBase[category];
+
+        // Check if message matches keywords
+        if (data.keywords.some(keyword => message.includes(keyword))) {
+            return pickRandom(data.responses);
+        }
+    }
+
+    // No match → return fallback
+    return pickRandom(fallbackReplies);
+}
+
+// Helper: choose random response
+function pickRandom(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+chatbotIcon.addEventListener("click", () => {
+  chatbotWindow.classList.toggle("show");
+});
+
+chatbotClose.addEventListener("click", () => {
+  chatbotWindow.classList.remove("show");
+});
+
+</script>
+
+</body>
+</html>

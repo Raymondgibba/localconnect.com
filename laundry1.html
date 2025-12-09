@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalConnect - Laundry Services</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="laundry.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="LocalConnect Logo" class="logo-img">
+        <div class="logo-text">
+          <span class="local">Local</span><span class="connect">Connect</span>
+        </div>
+      </div>
+      <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#laundry">Laundry</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Laundry Services Section -->
+  <main>
+    <section class="laundry-section" id="laundry">
+      <div class="section-header">
+        <h2><span class="local">Laundry</span><span class="connect"> Services</span></h2>
+        <p>Find trusted local laundry providers for washing, ironing, and dry cleaning.</p>
+      </div>
+
+      <div class="laundry-providers">
+        <!-- Template for laundry provider card -->
+        <article class="laundry-card">
+          <img src="laundry1.jpg" alt="Selina Laundry">
+          <h3>Selina Laundry</h3>
+          <p>Services: Washing, Dry Cleaning, Ironing</p>
+          <p>Price: $5 per kg</p>
+          <button class="book-now">View Details</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry2.jpg" alt="Quick Wash Laundry">
+          <h3>Quick Wash Laundry</h3>
+          <p>Services: Washing, Ironing</p>
+          <p>Price: $4 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry3.jpg" alt="Premium Laundry Care">
+          <h3>Premium Laundry Care</h3>
+          <p>Services: Washing, Dry Cleaning, Stain Removal</p>
+          <p>Price: $6 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry4.jpg" alt="Speedy Clean Laundry">
+          <h3>Speedy Clean Laundry</h3>
+          <p>Services: Washing, Ironing, Express Delivery</p>
+          <p>Price: $5.5 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry5.jpg" alt="Eco Laundry Services">
+          <h3>Eco Laundry Services</h3>
+          <p>Services: Organic Washing, Ironing, Fold & Pack</p>
+          <p>Price: $6 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry6.jpg" alt="Ultra Clean Laundry">
+          <h3>Ultra Clean Laundry</h3>
+          <p>Services: Washing, Dry Cleaning, Stain Removal, Fold & Pack</p>
+          <p>Price: $6.5 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry7.jpg" alt="Fresh & Bright Laundry">
+          <h3>Fresh & Bright Laundry</h3>
+          <p>Services: Washing, Ironing, Bleaching</p>
+          <p>Price: $5.2 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry8.jpg" alt="Home Touch Laundry">
+          <h3>Home Touch Laundry</h3>
+          <p>Services: Washing, Ironing, Pickup & Delivery</p>
+          <p>Price: $5.8 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry9.jpg" alt="Express Laundry Hub">
+          <h3>Express Laundry Hub</h3>
+          <p>Services: Express Washing, Ironing, Dry Cleaning</p>
+          <p>Price: $6 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+
+        <article class="laundry-card">
+          <img src="laundry10.jpg" alt="Bright Wash Laundry">
+          <h3>Bright Wash Laundry</h3>
+          <p>Services: Washing, Ironing, Stain Treatment</p>
+          <p>Price: $5.5 per kg</p>
+          <button class="book-now">Book Now</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>© 2025 LocalConnect. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
